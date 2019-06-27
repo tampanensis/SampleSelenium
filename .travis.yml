@@ -1,0 +1,12 @@
+language: python
+sudo: required
+dist: xenial
+python: "3.6"
+
+install:
+  - pip wheel -r requirements.txt
+   # Install the dependencies the app itself has
+   # which in this case are kept in a requirements file
+  - pip install -r requirements.txt
+
+script: pytest -sv

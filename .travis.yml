@@ -4,9 +4,7 @@ dist: xenial
 python: "3.6"
 
 addons:
-  apt:
-    packages:
-      - google-chrome-stable
+  chrome: stable
 
 install:
   - pip wheel -r requirements.txt

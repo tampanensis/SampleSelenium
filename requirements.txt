@@ -17,3 +17,5 @@ six==1.12.0
 urllib3==1.25.3
 webdriver-manager==1.7
 zipp==0.5.1
+allure-pytest
+allure-python-commons==2.5.4
